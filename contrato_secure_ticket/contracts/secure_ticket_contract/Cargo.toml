@@ -17,3 +17,8 @@ soroban-token-sdk = "22.0.7"
 
 [features]
 default = []
+
+
+
+[patch.crates-io]
+time = "0.3.35"
