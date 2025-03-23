@@ -1,0 +1,19 @@
+[package]
+name = "secure_ticket_contract"
+version = "22.0.7"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["lib", "cdylib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = "22.0.7"
+
+[dev-dependencies]
+soroban-sdk = { version = "22.0.7", features = ["testutils"] }
+soroban-token-sdk = "22.0.7"
+
+[features]
+default = []
